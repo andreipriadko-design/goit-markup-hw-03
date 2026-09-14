@@ -14,4 +14,9 @@
 }
 .feature-list {
     list-style: none;
+    display: flex;
+    gap: 24px;
+}
+.feature-item {
+    width: calc((100% - 72px) / 4);
 }

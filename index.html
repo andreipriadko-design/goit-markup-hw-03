@@ -12,18 +12,18 @@
     <link rel="stylesheet" href="./css/main.css">
   </head>
  <body>
-    <header id="header">
+    <header id="header" class="header">
       <div class="container">
+         <nav class="nav">
       <a class="logo" href="./index.html">Web<span>Studio</span></a>
-      <nav>
-        <ul>
+        <ul class="nav-list">
           <li><a class="nav-link" href="#features">Features</a></li>
           <li><a class="nav-link" href="#team">Team</a></li>
           <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
         </ul>
       </nav>
       <address class="contacts">
-        <ul>
+        <ul class="contacts-list">
           <li>
         <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
@@ -36,34 +36,37 @@
     </header>
     <main>
       <section id="hero" class="hero">
+        <div class="container">
         <h1 class="page-title">Effective Solutions for <span class="accent">Your Business</span> </h1>
         <button class="order-button" type="button">Order Service</button>
+        </div>
       </section>
-      <section id="features">
-        <h2 class="visually-hidden">Our Features</h2>
+      <section id="features" class="section">
+        <div class="container">
+        <h2 class="sr-only">Our Features</h2>
         <ul class="feature-list">
-          <li>
+          <li class="feature-item">
             <h3 class="feature-title">Strategy</h3>
             <p class="feature-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="feature-item">
             <h3 class="feature-title">Punctuality</h3>
             <p class="feature-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="feature-item">
             <h3 class="feature-title">Diligence</h3>
             <p class="feature-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="feature-item">
             <h3 class="feature-title">Technologies</h3>
             <p class="feature-text">
               Design practice focused on digital experiences. We bring forth a
@@ -71,8 +74,9 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
-      <section id="team" class="team">
+      <section id="team" class="team section">
         <div class="container">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
@@ -108,7 +112,7 @@
         </ul>
         </div>
       </section>
-      <section id="portfolio" class="portfolio">
+      <section id="portfolio" class="portfolio section">
         <div class="container">
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-list">

@@ -6,12 +6,32 @@ body {
 ul {
     list-style: none;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .container {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
-.visually-hidden {
+.section {
+    padding: 120px 0;
+}
+.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;

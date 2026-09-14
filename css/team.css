@@ -5,14 +5,18 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .team-list {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 24px;
 }
 .team-card {
     background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
 }
 .team-name {
   font-weight: 500;
@@ -21,6 +25,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-role {
   font-weight: 400;
@@ -32,4 +37,8 @@
 }
 .team {
 background-color: #f4f4fd;
+padding: 120px 0;
+}
+.team-card-content {
+  padding: 32px 16px;
 }
