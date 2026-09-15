@@ -7,6 +7,7 @@
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-right: 76px;
 }
 .logo span {
     color: #2e2f42;
@@ -41,13 +42,13 @@
 }
 .contacts {
     font-style: normal;
+    margin-left: auto;
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .nav-list {
